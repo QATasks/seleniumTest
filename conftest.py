@@ -32,6 +32,6 @@ def registration_data():
     return {
         "first_name": "name",
         "last_name": "name",
-        "email": "name@gmail.ru",
+        "email": "name@mail.ru",
         "pass": "123456"
     }
