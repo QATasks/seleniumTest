@@ -2,7 +2,7 @@ class HomePage:
     def __init__(self, driver):
         self.driver = driver
         self.url = "https://magento.softwaretestingboard.com/"
-        self.logo_selector = "img.logo"
+        self.logo_selector = "a.logo img"
         self.search_box_selector = "#search"
 
     def load(self):
